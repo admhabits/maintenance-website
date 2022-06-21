@@ -10905,8 +10905,8 @@ a, img {
 
 
 	h1, h2.title{
-		font-size:6vh;
-		line-height: 6vh;
+		font-size: 2rem;
+    	line-height: 3rem;
 	}
 
 	
@@ -11077,9 +11077,17 @@ a, img {
 		padding: 0;
 	}
 
+	.text-center-mobile {
+		text-align: center!important;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 	a.btn-custom{
 		display: block;
-		width:100%;
+		width: calc(100vw / 2);
 	}
 
 	header .social-icons,
